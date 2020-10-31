@@ -10,3 +10,7 @@ extra-deps:
 - commonmark-0.1.0.2
 - commonmark-extensions-0.2.0.1
 - commonmark-pandoc-0.2.0.1
+nix:
+  enable: false
+  pure: false
+  packages: [zlib]
