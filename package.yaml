@@ -1,0 +1,27 @@
+name:                compdoc-dhall-decoder
+version:             0.1.0.0
+git:                 https://gitlab.com/homotopic-tech/compdoc-dhall-decoder
+license:             BSD3
+author:              "Daniel Firth"
+maintainer:          "dan.firth@homotopic.tech"
+copyright:           "dan.firth@homotopic.tech"
+
+extra-source-files:
+- README.md
+- ChangeLog.md
+
+synopsis:            Allows you to write FromDhall instances for Compdoc
+category:            dhall pandoc
+
+dependencies:
+- base >= 4.7 && < 5
+- composite-aeson
+- composite-base
+- compdoc
+- dhall
+- either
+- pandoc
+- text
+
+library:
+  source-dirs: src
