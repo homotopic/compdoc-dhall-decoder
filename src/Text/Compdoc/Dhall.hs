@@ -1,3 +1,5 @@
+{-# LANGUAGE DataKinds #-}
+{-# LANGUAGE TypeOperators #-}
 module Text.Compdoc.Dhall where
 
 import Composite.Aeson
@@ -11,7 +13,7 @@ import Data.Typeable
 import Text.Pandoc
 
 -- | Decode a Compdoc value.
-compdocDecoder :: WriterOptions -> JsonFormat Void (Record a) -> D.InputNormalizer -> D.Decoder (Record (Compdoc a))
+compdocDecoder :: WriterOptions -> JsonFormat Void (Record a) -> D.InputNormalizer -> D.Decoder (Record (FContent ': a))
 compdocDecoder wopts f opts =
       D.Decoder
             { D.extract = extractDoc

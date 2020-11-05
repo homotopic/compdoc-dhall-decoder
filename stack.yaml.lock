@@ -12,12 +12,12 @@ packages:
   original:
     hackage: composite-aeson-throw-0.1.0.0
 - completed:
-    hackage: compdoc-0.1.0.0@sha256:50534053f4d9c9af528b1813900806d8c829a05157e62c37d702d2910a30b2b1,911
+    hackage: compdoc-0.2.0.0@sha256:9f6a9c1d6b1361d01a855b644908cfc51b0998715aded730c05c30f391afaecd,911
     pantry-tree:
-      size: 263
-      sha256: 76dbcb09c57ed20e84906cbcfc351c2494257be02f0107be563709f8f885827b
+      size: 264
+      sha256: 37de29f2bfd00e3c89b6fc3b99788dcf88c2b18309d2e23046b8aa08a2d1e885
   original:
-    hackage: compdoc-0.1.0.0
+    hackage: compdoc-0.2.0.0
 - completed:
     hackage: pandoc-throw-0.1.0.0@sha256:9cfa3dd0d8a3673d1c568dc6c710c70aad408e129bd83c40828e8b44fe87ffa7,775
     pantry-tree:

@@ -1,5 +1,5 @@
 name:                compdoc-dhall-decoder
-version:             0.1.0.0
+version:             0.2.0.0
 git:                 https://gitlab.com/homotopic-tech/compdoc-dhall-decoder
 license:             BSD3
 author:              "Daniel Firth"
@@ -17,7 +17,7 @@ dependencies:
 - base >= 4.7 && < 5
 - composite-aeson
 - composite-base
-- compdoc
+- compdoc >= 0.2.0.0
 - dhall
 - either
 - pandoc

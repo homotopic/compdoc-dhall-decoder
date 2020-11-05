@@ -5,7 +5,7 @@ cabal-version: 1.12
 -- see: https://github.com/sol/hpack
 
 name:           compdoc-dhall-decoder
-version:        0.1.0.0
+version:        0.2.0.0
 synopsis:       Allows you to write FromDhall instances for Compdoc
 category:       dhall pandoc
 author:         Daniel Firth
@@ -31,7 +31,7 @@ library
       src
   build-depends:
       base >=4.7 && <5
-    , compdoc
+    , compdoc >=0.2.0.0
     , composite-aeson
     , composite-base
     , dhall
