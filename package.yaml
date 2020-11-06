@@ -16,7 +16,7 @@ category:            dhall pandoc
 dependencies:
 - base >= 4.7 && < 5
 - composite-aeson
-- composite-base
+- composite-base >= 0.7.4.0
 - compdoc >= 0.2.0.0
 - dhall
 - either
