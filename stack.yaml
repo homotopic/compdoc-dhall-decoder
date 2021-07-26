@@ -1,16 +1,15 @@
-resolver: nightly-2020-10-30
+resolver: nightly-2021-07-23
 packages:
 - .
 extra-deps:
-- composite-aeson-throw-0.1.0.0
-- compdoc-0.2.0.0
-- pandoc-throw-0.1.0.0
-- pandoc-2.11.0.4
-- citeproc-0.1.0.3
-- commonmark-0.1.0.2
-- commonmark-extensions-0.2.0.1
-- commonmark-pandoc-0.2.0.1
+- git: https://github.com/locallycompact/composite
+  commit: 5644183439960e63d06ef8ec5e85c25356c6b1fc
+  subdirs:
+  - composite-base
+  - composite-aeson
+- composite-aeson-throw-0.1.0.0@sha256:0fc5f4ea1b243b0cf3b28168e3e7e67706bf03d1c1e7998c5816f1f58c0665fe,842
+- ../compdoc
+allow-newer: true
 nix:
-  enable: false
-  pure: false
   packages: [zlib]
+  enable: false
