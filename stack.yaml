@@ -1,14 +1,11 @@
-resolver: nightly-2021-07-23
+resolver: lts-18.2
 packages:
 - .
 extra-deps:
-- git: https://github.com/locallycompact/composite
-  commit: 5644183439960e63d06ef8ec5e85c25356c6b1fc
-  subdirs:
-  - composite-base
-  - composite-aeson
-- composite-aeson-throw-0.1.0.0@sha256:0fc5f4ea1b243b0cf3b28168e3e7e67706bf03d1c1e7998c5816f1f58c0665fe,842
-- ../compdoc
+- composite-base-0.7.5.0
+- composite-aeson-0.7.5.0
+- composite-aeson-throw-0.1.0.0
+- compdoc-0.3.0.0
 allow-newer: true
 nix:
   packages: [zlib]
